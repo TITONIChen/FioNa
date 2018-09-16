@@ -1,6 +1,7 @@
-import math
-x = input("x=:")
-print(math.ceil(float(x)))
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-z = input('z=:')
-print(math.floor(float(z)))
+m = numbers[3:6][4, 5, 6]
+n = numbers[0:1][1]
+
+print(m)
+print(n)
