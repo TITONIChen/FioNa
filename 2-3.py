@@ -1,3 +1,4 @@
+#在位于屏幕中央且宽度合适的方框内打印一个句子
 sentence = input("Please write a sentence:")
 
 screen_width = 80
