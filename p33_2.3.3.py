@@ -64,3 +64,45 @@ print(x)
 #print(x)
 x.pop(0)
 print(x)
+print('\r')
+
+#9. remove
+y = [0, 1, 2, 3, 4, 5]
+y.remove(5)
+print(y)
+z = ['Fiora', 'Sejuani', 'Xayah', 'Irelia']
+z.remove('Xayah')
+print(z)
+print('\r')
+
+#10. reverse
+m = ['Fiora', 'Sejuani', 'Xayah', 'Irelia']
+m.reverse()
+print(m)
+
+n = ['Fiora', 'Sejuani', 'Xayah', 'Irelia']
+list(reversed(n))
+print(n)
+print('\r')
+
+#11.sort
+p = [4, 6, 2, 1, 7, 9]
+q = sorted(p)
+print(q)
+print(p)
+
+i = [4, 6, 2, 1, 7, 9]
+j = i.copy()
+j.sort()
+print(j)
+print(i)
+print('\r')
+
+#12. 高级排序
+legend1 = ['Fiora', 'Sejuani', 'Xayah', 'Irelia']
+legend1.sort(key=len)
+print(legend1)
+
+l2 = [4, 6, 2, 1, 7, 9]
+l2.sort(reverse=True)
+print(l2)
