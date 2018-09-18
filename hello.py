@@ -6,7 +6,4 @@
 #print(m)
 #print(n)
 
-users = ['TOM', 'Fiora', 'Sejuani']
-name = input("input your name: ")
 
-if name in users: print("True")
